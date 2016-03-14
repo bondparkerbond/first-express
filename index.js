@@ -17,10 +17,10 @@ app.get('/products', function(request, response) {
 
 app.get('/products/:id', function(request, response) {
   fs.readFile('products.json', 'utf8', function(err, data) {
-    var products = JSON.parse(data);
-    var product = products.products.filter(function(obj) {
-        return obj.id == request.params.id;
-      });
+    var productsParsed = JSON.parse(data);
+    var product = productsParsed.products.filter(function(obj) {
+      return obj.id == request.params.id;
+    });
     if (product.length) {
       product = product[0];
     } else {
