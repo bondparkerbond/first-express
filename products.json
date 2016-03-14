@@ -1,0 +1,213 @@
+{
+  "products": [
+    {
+      "id": 272,
+      "name": "Firebolt",
+      "base_price": 10000,
+      "description": "World's fastest broom",
+      "quanity_on_hand": 0,
+      "color": "brown",
+      "weight": "4",
+      "other_attributes": null
+    },
+    {
+      "id": 275,
+      "name": "thing",
+      "base_price": 55,
+      "description": "cool",
+      "quanity_on_hand": 5,
+      "color": "",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 276,
+      "name": "Nike Shoes",
+      "base_price": null,
+      "description": null,
+      "quanity_on_hand": 0,
+      "color": null,
+      "weight": null,
+      "other_attributes": null
+    },
+    {
+      "id": 255,
+      "name": "derrick",
+      "base_price": null,
+      "description": "",
+      "quanity_on_hand": 0,
+      "color": "",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 270,
+      "name": "AeroPlaner",
+      "base_price": 0,
+      "description": "wow",
+      "quanity_on_hand": 0,
+      "color": "red",
+      "weight": "100",
+      "other_attributes": [
+          "flys",
+          " planes",
+          " aroe"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "A nice name",
+      "base_price": 111,
+      "description": "a nice description",
+      "quanity_on_hand": 0,
+      "color": "color",
+      "weight": "30",
+      "other_attributes": null
+    },
+    {
+      "id": 166,
+      "name": "Yo whatdup",
+      "base_price": 0,
+      "description": "nope",
+      "quanity_on_hand": 0,
+      "color": "ok",
+      "weight": "cool",
+      "other_attributes": null
+    },
+    {
+      "id": 230,
+      "name": "asdf",
+      "base_price": 0,
+      "description": "",
+      "quanity_on_hand": null,
+      "color": "",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 222,
+      "name": "STARWARS!",
+      "base_price": null,
+      "description": "",
+      "quanity_on_hand": 0,
+      "color": "",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 158,
+      "name": "nother product",
+      "base_price": 0,
+      "description": "This sucks",
+      "quanity_on_hand": 0,
+      "color": "ugly",
+      "weight": "heavy",
+      "other_attributes": null
+    },
+    {
+      "id": 159,
+      "name": "Jake's Dumb Things",
+      "base_price": 0,
+      "description": "lol jk bro its cool",
+      "quanity_on_hand": 0,
+      "color": "red",
+      "weight": "kinda cool",
+      "other_attributes": null
+  },
+    {
+      "id": 236,
+      "name": "Product",
+      "base_price": 123,
+      "description": "Description",
+      "quanity_on_hand": 0,
+      "color": "Red",
+      "weight": "123",
+      "other_attributes": null
+    },
+    {
+      "id": 214,
+      "name": "Macbook Pro",
+      "base_price": 1,
+      "description": "THE BEST",
+      "quanity_on_hand": 0,
+      "color": "silver",
+      "weight": "8",
+      "other_attributes": [
+          ""
+      ]
+    },
+    {
+      "id": 240,
+      "name": "Flip Book",
+      "base_price": 10,
+      "description": "",
+      "quanity_on_hand": 0,
+      "color": "no",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 241,
+      "name": "Flip Book",
+      "base_price": 10,
+      "description": "",
+      "quanity_on_hand": 0,
+      "color": "no",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 242,
+      "name": "More products",
+      "base_price": null,
+      "description": "",
+      "quanity_on_hand": 0,
+      "color": "",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 243,
+      "name": "Zzzzzzzz",
+      "base_price": null,
+      "description": "",
+      "quanity_on_hand": 0,
+      "color": "",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 244,
+      "name": "Sleepy",
+      "base_price": null,
+      "description": "",
+      "quanity_on_hand": 0,
+      "color": "",
+      "weight": "",
+      "other_attributes": null
+    },
+    {
+      "id": 264,
+      "name": "yo!!!!",
+      "base_price": 3,
+      "description": "",
+      "quanity_on_hand": 0,
+      "color": "",
+      "weight": "",
+      "other_attributes": [
+          "YOU",
+          " ME"
+      ]
+    },
+    {
+      "id": 271,
+      "name": "aSD",
+      "base_price": 0,
+      "description": "SD",
+      "quanity_on_hand": -3,
+      "color": "ASDF",
+      "weight": "",
+      "other_attributes": null
+    }
+  ]
+}
