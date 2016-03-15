@@ -1,6 +1,7 @@
 var express = require('express');
 var fs = require('fs');
 var ejs = require('ejs');
+
 var app = express();
 
 app.get('/', function(request, response) {
@@ -9,8 +10,8 @@ app.get('/', function(request, response) {
 
 app.get('/products', function(request, response) {
   fs.readFile('products.json', 'utf8', function(err, data) {
-    var obj = JSON.parse(data);
-    response.locals = { data: obj };
+    var productsObj = JSON.parse(data);
+    response.locals = { data: productsObj };
     response.render('products.ejs');
   });
 });
@@ -32,3 +33,6 @@ app.get('/products/:id', function(request, response) {
 });
 
 app.listen(8080);
+
+console.log('Express listening on port 8080');
+
