@@ -2,17 +2,19 @@
 <h1>Products</h1>
 <table>
   <thead>
+    <th>Link</th>
     <th>ID</th>
     <th>Name</th>
     <th>Price</th>
     <th>Description</th>
   </thead>
   <tbody>
-    <% data.products.forEach( function(product) { %>
+    <% parsedData.products.forEach( function(product) { %>
       <tr>
         <td>
           <a href=<%= '/products/' + product.id %> >Show</a>
         </td>
+        <td><%= product.id %></td>
         <td><%= product.name %></td>
         <td>$<%= product.base_price %></td>
         <td><%= product.description %></td>

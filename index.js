@@ -11,7 +11,7 @@ app.get('/', function(request, response) {
 app.get('/products', function(request, response) {
   fs.readFile('products.json', 'utf8', function(err, data) {
     var productsObj = JSON.parse(data);
-    response.locals = { data: productsObj };
+    response.locals = { parsedData: productsObj };
     response.render('products.ejs');
   });
 });
@@ -22,7 +22,7 @@ app.get('/products/:id', function(request, response) {
     var product = productsParsed.products.filter(function(obj) {
       return obj.id == request.params.id;
     });
-    if (product.length) {
+    if (product.length > 0) {
       product = product[0];
     } else {
       product = null;
@@ -32,7 +32,7 @@ app.get('/products/:id', function(request, response) {
   });
 });
 
-app.listen(8080);
+app.listen(8081);
 
-console.log('Express listening on port 8080');
+console.log('Express listening on port 8081');
 
